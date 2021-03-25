@@ -1,13 +1,19 @@
-package SingleResponsibilityPrinciple.goods;
+package SingleResponsibilityPrinciple.two.goods;
 
-public class Pen implements Goods{
+public class Book implements Goods {
     private String name;
-    private final int margin = 10;
+    private String category;
     private Integer price;
+    private final int margin = 30;
 
-    public Pen(String name, Integer price) {
+    public Book(String name, Integer price, String category) {
         this.name = name;
         this.price = price;
+        this.category = category;
+    }
+
+    public String getCategory() {
+        return category;
     }
 
     @Override

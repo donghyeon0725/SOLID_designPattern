@@ -1,4 +1,4 @@
-package SingleResponsibilityPrinciple.goods;
+package SingleResponsibilityPrinciple.one.goods;
 
 public class Book implements Goods {
     private String name;

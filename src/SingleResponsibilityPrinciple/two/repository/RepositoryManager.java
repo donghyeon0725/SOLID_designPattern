@@ -1,4 +1,4 @@
-package SingleResponsibilityPrinciple.repository;
+package SingleResponsibilityPrinciple.two.repository;
 
 public class RepositoryManager {
     public static Repository repository = new RepositoryImpl();
@@ -8,5 +8,4 @@ public class RepositoryManager {
     public static Repository getInstance() {
         return repository;
     }
-
 }

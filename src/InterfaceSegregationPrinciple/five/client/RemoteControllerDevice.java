@@ -1,6 +1,6 @@
 package InterfaceSegregationPrinciple.five.client;
 
-import five.api.Controller;
+import InterfaceSegregationPrinciple.five.api.Controller;
 
 /**
  * 사용자가 사용하는 입장에서 각각의 Controller를 주입받는 것이 아닌, 중심이 될 Controller를 주입 받고, 그것을 통해서 인터페이스에 접근함으로써

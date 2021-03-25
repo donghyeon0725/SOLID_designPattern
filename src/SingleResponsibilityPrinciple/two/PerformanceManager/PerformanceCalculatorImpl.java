@@ -1,8 +1,9 @@
-package SingleResponsibilityPrinciple.PerformanceManager;
+package SingleResponsibilityPrinciple.two.PerformanceManager;
 
-import SingleResponsibilityPrinciple.Employees.SocietyPerson;
-import SingleResponsibilityPrinciple.goods.Goods;
-import SingleResponsibilityPrinciple.repository.Repository;
+
+import SingleResponsibilityPrinciple.two.Salesperson;
+import SingleResponsibilityPrinciple.two.goods.Goods;
+import SingleResponsibilityPrinciple.two.repository.Repository;
 
 import java.util.List;
 
@@ -14,13 +15,13 @@ class PerformanceCalculatorImpl implements PerformanceCalculator {
     }
 
     @Override
-    public Money calculatePay(SocietyPerson employee) {
+    public int calculatePay(Salesperson salesperson) {
         int total;
-        List<Goods> goods = repository.getAllGoods(employee);
+        List<Goods> goods = repository.getAllGoods(salesperson);
         // 계산해주는 기능
         total = goods.stream().mapToInt(e -> (int) (e.getPrice() * (e.getMargin() / (double)100))).sum();
 
 
-        return new Money(total);
+        return total;
     }
 }

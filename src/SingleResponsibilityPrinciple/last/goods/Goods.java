@@ -1,4 +1,4 @@
-package SingleResponsibilityPrinciple.goods;
+package SingleResponsibilityPrinciple.last.goods;
 
 public interface Goods {
     int getMargin();

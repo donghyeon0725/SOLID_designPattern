@@ -1,8 +1,9 @@
 package InterfaceSegregationPrinciple.two;
 
-import two.client.FlyRemoteControllerDevice;
-import two.controller.DronController;
-import two.controller.DronControllerManager;
+
+import InterfaceSegregationPrinciple.two.client.FlyRemoteControllerDevice;
+import InterfaceSegregationPrinciple.two.controller.DronController;
+import InterfaceSegregationPrinciple.two.controller.DronControllerManager;
 
 public class Main {
     public static void main(String[] args) {

@@ -1,6 +1,6 @@
 package InterfaceSegregationPrinciple.two.controller;
 
-import two.controller.DronController;
+
 
 /**
  * 이것을 각각의 컨트롤러가 주입 받는다.

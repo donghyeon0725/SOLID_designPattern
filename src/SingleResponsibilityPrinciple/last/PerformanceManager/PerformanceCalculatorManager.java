@@ -1,7 +1,7 @@
-package SingleResponsibilityPrinciple.PerformanceManager;
+package SingleResponsibilityPrinciple.last.PerformanceManager;
 
-import SingleResponsibilityPrinciple.repository.Repository;
-import SingleResponsibilityPrinciple.repository.RepositoryManager;
+import SingleResponsibilityPrinciple.last.repository.Repository;
+import SingleResponsibilityPrinciple.last.repository.RepositoryManager;
 
 public class PerformanceCalculatorManager {
     private static PerformanceCalculator performanceCalculator = new PerformanceCalculatorImpl(RepositoryManager.getInstance());

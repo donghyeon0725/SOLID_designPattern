@@ -1,6 +1,7 @@
 package InterfaceSegregationPrinciple.three.client;
 
-import three.controller.SailController;
+
+import InterfaceSegregationPrinciple.three.controller.SailController;
 
 public class SailRemoteControllerDevice {
     private SailController sailController;

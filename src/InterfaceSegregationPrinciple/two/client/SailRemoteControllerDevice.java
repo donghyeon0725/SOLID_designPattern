@@ -1,6 +1,7 @@
 package InterfaceSegregationPrinciple.two.client;
 
-import two.controller.module.SailController;
+
+import InterfaceSegregationPrinciple.two.controller.module.SailController;
 
 public class SailRemoteControllerDevice {
     private SailController sailController;

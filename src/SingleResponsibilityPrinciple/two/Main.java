@@ -1,0 +1,16 @@
+package SingleResponsibilityPrinciple.two;
+
+
+import SingleResponsibilityPrinciple.two.goods.*;
+
+public class Main {
+    public static void main(String[] args) {
+        Salesperson person = new Salesperson(1);
+
+        person.saleGoods(new Pen("삼색 볼펜", 3000));
+        person.saleGoods(new Book("자바의 정석", 6000, "자기개발도서"));
+        person.saleGoods(new Pen("연필", 500));
+
+        System.out.println(person);
+    }
+}

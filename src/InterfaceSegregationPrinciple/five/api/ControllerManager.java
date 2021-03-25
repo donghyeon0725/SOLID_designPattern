@@ -1,6 +1,6 @@
 package InterfaceSegregationPrinciple.five.api;
 
-import five.controller.*;
+import InterfaceSegregationPrinciple.five.controller.*;
 
 public class ControllerManager implements Controller {
     private FlyController flyController = new FlyControllerManager();

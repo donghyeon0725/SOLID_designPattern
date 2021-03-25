@@ -1,6 +1,7 @@
 package InterfaceSegregationPrinciple.three.client;
 
-import three.controller.DriveController;
+
+import InterfaceSegregationPrinciple.three.controller.DriveController;
 
 /**
  * 클라이언트 입장

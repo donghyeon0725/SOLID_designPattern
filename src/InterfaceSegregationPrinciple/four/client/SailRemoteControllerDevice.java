@@ -1,6 +1,7 @@
 package InterfaceSegregationPrinciple.four.client;
 
-import four.api.controller.DronController;
+
+import InterfaceSegregationPrinciple.four.api.controller.DronController;
 
 public class SailRemoteControllerDevice {
     private DronController dronController;

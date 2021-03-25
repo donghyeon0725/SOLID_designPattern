@@ -1,6 +1,6 @@
 package InterfaceSegregationPrinciple.two.client;
 
-import two.controller.module.DriveController;
+import InterfaceSegregationPrinciple.two.controller.module.DriveController;
 
 /**
  * 클라이언트 입장

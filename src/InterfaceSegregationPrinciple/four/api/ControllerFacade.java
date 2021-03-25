@@ -1,9 +1,9 @@
 package InterfaceSegregationPrinciple.four.api;
 
-import four.api.controller.DriveControllerManager;
-import four.api.controller.DronController;
-import four.api.controller.FlyControllerManager;
-import four.api.controller.SailControllerManager;
+import InterfaceSegregationPrinciple.four.api.controller.DriveControllerManager;
+import InterfaceSegregationPrinciple.four.api.controller.DronController;
+import InterfaceSegregationPrinciple.four.api.controller.FlyControllerManager;
+import InterfaceSegregationPrinciple.four.api.controller.SailControllerManager;
 
 public class ControllerFacade implements DronController {
 
